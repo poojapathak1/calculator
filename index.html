@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bmi calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body style="background-image: url(img-png.jpg); background-size:100%;">
+    <p class="fw-bold">Calculator</p>
+    <div class="container">
+        <div class="calculator">
+          <input type="text" id="result" placeholder="0"/>
+
+          <div>
+            <button class="button operator" onclick="allclear()">ASC</button>
+            <button class="button operator" onclick="remove()">DEL</button>
+            <button class="button operator" onclick="display('%')">%</button>
+            <button class="button operator" onclick="display('/')">/</button>
+          </div>
+          <div>
+            <button class="button" onclick="display('7')">7</button>
+            <button class="button" onclick="display('8')">8</button>
+            <button class="button" onclick="display('9')">9</button>
+            <button class="button operator" onclick="display('*')">*</button>
+          </div>
+          <div>
+            <button class="button" onclick="display('4')" >4</button>
+            <button class="button" onclick="display('5')">5</button>
+            <button class="button" onclick="display('6')">6</button>
+            <button class="button operator" onclick="display('-')">-</button>
+          </div>
+          <div>
+            <button class="button" onclick="display('1')">1</button>
+            <button class="button" onclick="display('2')">2</button>
+            <button class="button" onclick="display('3')">3</button>
+            <button class="button operator" onclick="display('+')">+</button>
+          </div>
+    
+          <div>
+            <button class="button" onclick="display('00')">00</button>
+            <button class="button" onclick="display('0')">0</button>
+            <button class="button" onclick="display('.')">.</button>
+            <button class="button equalBtn" onclick="calculate('=')">=</button>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
